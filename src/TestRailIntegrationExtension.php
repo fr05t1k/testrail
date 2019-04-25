@@ -143,7 +143,7 @@ class TestRailIntegrationExtension extends Extension
      */
     public function _initialize(): void
     {
-        $this->version = $this->config['version'];
+        $this->version = $this->config['version'] ?? '';
         if (!$this->version) {
             $this->output->debug('Version is not specified. TestRails integration is skipped');
             $this->extensionNeeded = false;
