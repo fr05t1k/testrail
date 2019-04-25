@@ -24,7 +24,7 @@ extensions:
 
 # Run
 ```bash
-VERSION=1.2 codecept run api -d 
+> VERSION=1.2 codecept run api -d 
 Codeception PHP Testing Framework v2.5.4
 Powered by PHPUnit 6.5.12 by Sebastian Bergmann and contributors.
 Running with seed:
