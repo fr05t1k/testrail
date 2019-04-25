@@ -30,7 +30,7 @@ Powered by PHPUnit 6.5.12 by Sebastian Bergmann and contributors.
 Running with seed:
 
 
-  Version is not specified. TestRails integration is enabled. Version: 1.2
+  TestRails integration is enabled. Version: 1.2
 ...
 Time: 4.4 seconds, Memory: 20.25MB
 
