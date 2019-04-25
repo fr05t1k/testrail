@@ -1,0 +1,25 @@
+{
+  "name": "codeception/testrail",
+  "description": "Extension for TestRail integration",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Mihail Chubar",
+      "email": "rasstroen@wisebits.com"
+    },
+    {
+      "name": "Stanislav Pavlovichev",
+      "email": "spavlovichev@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Codeception\\TestRail\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=7.1",
+    "guzzlehttp/guzzle": "~6.0",
+    "codeception/codeception": "~3.0"
+  }
+}
